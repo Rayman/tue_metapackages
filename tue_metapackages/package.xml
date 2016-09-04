@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tue_metapackages</name>
+  <version>0.0.0</version>
+  <description>The tue_metapackages package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>BSD</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tue_dev</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
