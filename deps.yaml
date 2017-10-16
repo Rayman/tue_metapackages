@@ -1,0 +1,204 @@
+amigo:
+- robot
+- amigo_bringup
+- amigo_user
+amigo1:
+- amigo
+- amigo_start
+- amigo_hardware
+- audio
+- kinect_driver
+- urg_node
+- battery_manager
+- rgb_lights_manager
+- emergency_speakup
+amigo2:
+- amigo
+- chrony_client_pc
+- megatools
+- tue_middleware
+- tue_robocup_at_home
+amigo4:
+- chrony_client_pc
+- openpose_ros
+amigo5:
+- chrony_client_pc
+- matrix_ros
+amigo_start:
+- dragonfly_speech_recognition
+- hmi
+- text_to_speech
+- amigo_description
+- robot_state_publisher
+- rosbridge_server
+- tue_mobile_ui
+- tf_server
+- node_alive
+- tue_manipulation
+- head_ref
+- image_recognition_msgs
+- ed_robocup
+- ed_sensor_integration
+- cb_planner_msgs_srvs
+- ed_perception
+amigo_user:
+- tue_common
+- robot_user
+- amigo_bringup
+- amigo_description
+audio:
+- alsa_tools
+- alsa_utils
+- mpg123
+- pulseaudio
+- sox
+- x11_apps
+ed_cloud:
+- ed_cloud
+- ed_sensor_integration
+- ed_localization
+hub:
+- hub
+matthijs:
+- tue_dev
+- chrome_dev
+- qtcreator
+- pycharm
+- geany
+- gedit
+- swri_console
+networking:
+- libnss_mdns
+- avahi_daemon
+- avahi_dnsconfd
+- nmap
+orocos_toolchain:
+- ruby_dev
+- libreadline_dev
+pycharm:
+- pycharm_community
+robot:
+- gitsu
+- networking
+robot_user:
+- networking
+- tue_teleop_keyboard
+ros_openface_ros:
+- openface
+ros_wit_ros:
+- python_requests
+sergio:
+- robot
+- sergio_bringup
+- sergio_user
+sergio1:
+- sergio
+- sergio_start
+- amigo_hardware
+- sergio_hardware
+- audio
+- kinect_driver
+- urg_node
+- battery_manager
+- rgb_lights_manager
+- emergency_speakup
+sergio2:
+- sergio
+- megatools
+- tue_middleware
+- tue_robocup_at_home
+sergio_start:
+- dragonfly_speech_recognition
+- hmi
+- text_to_speech
+- sergio_description
+- robot_state_publisher
+- rosbridge_server
+- tue_mobile_ui
+- tf_server
+- node_alive
+- tue_manipulation
+- head_ref
+- image_recognition_msgs
+- ed_robocup
+- ed_sensor_integration
+- cb_planner_msgs_srvs
+- ed_perception
+sergio_user:
+- tue_common
+- robot_user
+- sergio_bringup
+- sergio_description
+- node_alive
+texstudio:
+- texstudio
+tue_common:
+- tue_msgs
+- ros
+tue_dev:
+- fast_simulator
+- fast_simulator_data
+- tue_middleware
+- tue_mobile_ui
+- rviz
+- megasync
+- spot
+- tue_robocup_at_home
+- dashboard
+- amigo_user
+- amigo_start
+- sergio_user
+- sergio_start
+- nl_robot_console
+- ed_rviz_plugins
+- hsr_user
+- terminator
+- vim
+- gitsu
+- htop
+- ccache
+- meld
+tue_dev_full:
+- tue_dev
+- tue_tools
+tue_fancydesktop:
+- variety
+tue_hardware:
+- soem_master
+- soem_beckhoff_drivers
+- soem_core
+- rtt_control_components
+- tue_ethercat_drivers
+- amigo_hardware
+- sergio_hardware
+tue_middleware:
+- tue_common
+- diagnostic_aggregator
+- node_alive
+- cb_base_navigation
+- dwa_local_planner
+- tue_manipulation
+- ar_track_alvar
+- gmapping
+- ed
+- ed_perception
+- ed_perception_models
+- ed_gui_server
+- ed_localization
+- ed_navigation
+- ed_robocup
+- ed_sensor_integration
+- head_ref_ed_client
+- image_recognition
+- action_server
+- tensorflow_ros
+- people_detector
+- openface_ros
+tue_robocup_at_home:
+- tue_robocup
+- robocup_knowledge
+tue_tools:
+- sublime3
+- chrome
+- geany
+- gedit

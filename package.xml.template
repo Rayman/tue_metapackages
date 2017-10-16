@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>{name}</name>
+  <version>0.0.1</version>
+  <description>The {name} meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  {dependencies}
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
