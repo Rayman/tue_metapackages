@@ -1,3 +1,3 @@
 #!/bin/bash
 
-find -type d -maxdepth 1 -exec rm -rv {} \;
+find -mindepth 1 -maxdepth 1 -type d -exec rm -rv {} \;
