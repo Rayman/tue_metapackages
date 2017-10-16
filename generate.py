@@ -27,6 +27,8 @@ with open(os.path.join(basedir, 'package.xml.template')) as f:
     package_template = f.read()
 
 for name, deps in data.items():
+    for dep in deps:
+        assert name != dep, "package that depends on itself: %s" % name
     base = os.path.join(basedir, name)
     mkdir_p(base)
     with open(os.path.join(base, 'CMakeLists.txt'), 'w') as out:
