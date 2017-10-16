@@ -85,8 +85,6 @@ robot_user:
 - tue_teleop_keyboard
 ros_openface_ros:
 - openface
-ros_wit_ros:
-- python_requests
 sergio:
 - robot
 - sergio_bringup

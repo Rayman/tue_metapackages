@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ed_cloud</name>
+  <version>0.0.1</version>
+  <description>The ed_cloud meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>ed_cloud</exec_depend>
+  <exec_depend>ed_sensor_integration</exec_depend>
+  <exec_depend>ed_localization</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

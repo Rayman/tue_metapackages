@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sergio_user</name>
+  <version>0.0.1</version>
+  <description>The sergio_user meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tue_common</exec_depend>
+  <exec_depend>robot_user</exec_depend>
+  <exec_depend>sergio_bringup</exec_depend>
+  <exec_depend>sergio_description</exec_depend>
+  <exec_depend>node_alive</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

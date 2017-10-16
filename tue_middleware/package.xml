@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tue_middleware</name>
+  <version>0.0.1</version>
+  <description>The tue_middleware meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tue_common</exec_depend>
+  <exec_depend>diagnostic_aggregator</exec_depend>
+  <exec_depend>node_alive</exec_depend>
+  <exec_depend>cb_base_navigation</exec_depend>
+  <exec_depend>dwa_local_planner</exec_depend>
+  <exec_depend>tue_manipulation</exec_depend>
+  <exec_depend>ar_track_alvar</exec_depend>
+  <exec_depend>gmapping</exec_depend>
+  <exec_depend>ed</exec_depend>
+  <exec_depend>ed_perception</exec_depend>
+  <exec_depend>ed_perception_models</exec_depend>
+  <exec_depend>ed_gui_server</exec_depend>
+  <exec_depend>ed_localization</exec_depend>
+  <exec_depend>ed_navigation</exec_depend>
+  <exec_depend>ed_robocup</exec_depend>
+  <exec_depend>ed_sensor_integration</exec_depend>
+  <exec_depend>head_ref_ed_client</exec_depend>
+  <exec_depend>image_recognition</exec_depend>
+  <exec_depend>action_server</exec_depend>
+  <exec_depend>tensorflow_ros</exec_depend>
+  <exec_depend>people_detector</exec_depend>
+  <exec_depend>openface_ros</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

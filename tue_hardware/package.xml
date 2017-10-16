@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tue_hardware</name>
+  <version>0.0.1</version>
+  <description>The tue_hardware meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>soem_master</exec_depend>
+  <exec_depend>soem_beckhoff_drivers</exec_depend>
+  <exec_depend>soem_core</exec_depend>
+  <exec_depend>rtt_control_components</exec_depend>
+  <exec_depend>tue_ethercat_drivers</exec_depend>
+  <exec_depend>amigo_hardware</exec_depend>
+  <exec_depend>sergio_hardware</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sergio1</name>
+  <version>0.0.1</version>
+  <description>The sergio1 meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>sergio</exec_depend>
+  <exec_depend>sergio_start</exec_depend>
+  <exec_depend>amigo_hardware</exec_depend>
+  <exec_depend>sergio_hardware</exec_depend>
+  <exec_depend>audio</exec_depend>
+  <exec_depend>kinect_driver</exec_depend>
+  <exec_depend>urg_node</exec_depend>
+  <exec_depend>battery_manager</exec_depend>
+  <exec_depend>rgb_lights_manager</exec_depend>
+  <exec_depend>emergency_speakup</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
