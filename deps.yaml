@@ -53,12 +53,6 @@ audio:
 - pulseaudio
 - sox
 - x11_apps
-ed_cloud:
-- ed_cloud
-- ed_sensor_integration
-- ed_localization
-hub:
-- hub
 matthijs:
 - tue_dev
 - chrome_dev
@@ -72,19 +66,12 @@ networking:
 - avahi_daemon
 - avahi_dnsconfd
 - nmap
-orocos_toolchain:
-- ruby_dev
-- libreadline_dev
-pycharm:
-- pycharm_community
 robot:
 - gitsu
 - networking
 robot_user:
 - networking
 - tue_teleop_keyboard
-ros_openface_ros:
-- openface
 sergio:
 - robot
 - sergio_bringup
@@ -128,8 +115,6 @@ sergio_user:
 - sergio_bringup
 - sergio_description
 - node_alive
-texstudio:
-- texstudio
 tue_common:
 - tue_msgs
 - ros
@@ -140,6 +125,7 @@ tue_dev:
 - tue_mobile_ui
 - rviz
 - megasync
+- viz
 - spot
 - tue_robocup_at_home
 - dashboard
@@ -159,8 +145,6 @@ tue_dev:
 tue_dev_full:
 - tue_dev
 - tue_tools
-tue_fancydesktop:
-- variety
 tue_hardware:
 - soem_master
 - soem_beckhoff_drivers
