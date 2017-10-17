@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>networking</name>
+  <version>0.0.1</version>
+  <description>The networking meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>libnss_mdns</exec_depend>
+  <exec_depend>avahi_daemon</exec_depend>
+  <exec_depend>avahi_dnsconfd</exec_depend>
+  <exec_depend>nmap</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

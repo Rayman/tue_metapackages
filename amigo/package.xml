@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>amigo</name>
+  <version>0.0.1</version>
+  <description>The amigo meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>robot</exec_depend>
+  <exec_depend>amigo_bringup</exec_depend>
+  <exec_depend>amigo_user</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

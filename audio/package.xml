@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>audio</name>
+  <version>0.0.1</version>
+  <description>The audio meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>alsa_tools</exec_depend>
+  <exec_depend>alsa_utils</exec_depend>
+  <exec_depend>mpg123</exec_depend>
+  <exec_depend>pulseaudio</exec_depend>
+  <exec_depend>sox</exec_depend>
+  <exec_depend>x11_apps</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

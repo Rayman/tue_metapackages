@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>amigo_start</name>
+  <version>0.0.1</version>
+  <description>The amigo_start meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>dragonfly_speech_recognition</exec_depend>
+  <exec_depend>hmi</exec_depend>
+  <exec_depend>text_to_speech</exec_depend>
+  <exec_depend>amigo_description</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rosbridge_server</exec_depend>
+  <exec_depend>tue_mobile_ui</exec_depend>
+  <exec_depend>tf_server</exec_depend>
+  <exec_depend>node_alive</exec_depend>
+  <exec_depend>tue_manipulation</exec_depend>
+  <exec_depend>head_ref</exec_depend>
+  <exec_depend>image_recognition_msgs</exec_depend>
+  <exec_depend>ed_robocup</exec_depend>
+  <exec_depend>ed_sensor_integration</exec_depend>
+  <exec_depend>cb_planner_msgs_srvs</exec_depend>
+  <exec_depend>ed_perception</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

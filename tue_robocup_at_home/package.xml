@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tue_robocup_at_home</name>
+  <version>0.0.1</version>
+  <description>The tue_robocup_at_home meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tue_robocup</exec_depend>
+  <exec_depend>robocup_knowledge</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
