@@ -9,6 +9,7 @@ amigo1:
 - audio
 - kinect_driver
 - urg_node
+- laser_filters
 - battery_manager
 - rgb_lights_manager
 - emergency_speakup
@@ -84,6 +85,7 @@ sergio1:
 - audio
 - kinect_driver
 - urg_node
+- laser_filters
 - battery_manager
 - rgb_lights_manager
 - emergency_speakup

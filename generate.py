@@ -25,14 +25,31 @@ with open(os.path.join(basedir, 'CMakeLists.txt.template')) as f:
     cmake_template = f.read()
 with open(os.path.join(basedir, 'package.xml.template')) as f:
     package_template = f.read()
+cmake_hooks = '\ncatkin_add_env_hooks(${PROJECT_NAME} SHELLS sh DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/env-hooks)'
 
 for name, deps in data.items():
     for dep in deps:
         assert name != dep, "package that depends on itself: %s" % name
+
     base = os.path.join(basedir, name)
     mkdir_p(base)
+
     with open(os.path.join(base, 'CMakeLists.txt'), 'w') as out:
-        out.write(cmake_template.format(name=name))
+        cmake = cmake_template.format(name=name)
+        hook = None
+        try:
+            with open(os.path.join('setup', base)) as f:
+                print('setup detected %s' % base)
+                cmake += cmake_hooks
+                hook = f.read()
+        except IOError:
+            pass
+        else:
+            hooks_dir = os.path.join(base, 'env-hooks')
+            mkdir_p(hooks_dir)
+            with open(os.path.join(hooks_dir, base + '.sh'), 'w') as f:
+                f.write(hook)
+        out.write(cmake)
     with open(os.path.join(base, 'package.xml'), 'w') as out:
         dependencies = ['<exec_depend>' + d + '</exec_depend>' for d in deps]
         dependencies = '\n  '.join(dependencies)
