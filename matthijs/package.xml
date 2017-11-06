@@ -13,6 +13,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>tue_dev</exec_depend>
+  <exec_depend>ack</exec_depend>
   <exec_depend>chrome_dev</exec_depend>
   <exec_depend>qtcreator</exec_depend>
   <exec_depend>pycharm</exec_depend>

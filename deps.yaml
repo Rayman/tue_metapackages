@@ -9,6 +9,7 @@ amigo1:
 - audio
 - kinect_driver
 - urg_node
+- laser_filters
 - battery_manager
 - rgb_lights_manager
 - emergency_speakup
@@ -55,6 +56,7 @@ audio:
 - x11_apps
 matthijs:
 - tue_dev
+- ack
 - chrome_dev
 - qtcreator
 - pycharm
@@ -72,6 +74,9 @@ robot:
 robot_user:
 - networking
 - tue_teleop_keyboard
+ros_ruby:
+- ruby
+- ruby_dev
 sergio:
 - robot
 - sergio_bringup
@@ -84,6 +89,7 @@ sergio1:
 - audio
 - kinect_driver
 - urg_node
+- laser_filters
 - battery_manager
 - rgb_lights_manager
 - emergency_speakup
@@ -148,7 +154,6 @@ tue_dev_full:
 tue_hardware:
 - soem_master
 - soem_beckhoff_drivers
-- soem_core
 - rtt_control_components
 - tue_ethercat_drivers
 - amigo_hardware

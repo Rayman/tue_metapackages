@@ -14,7 +14,6 @@
 
   <exec_depend>soem_master</exec_depend>
   <exec_depend>soem_beckhoff_drivers</exec_depend>
-  <exec_depend>soem_core</exec_depend>
   <exec_depend>rtt_control_components</exec_depend>
   <exec_depend>tue_ethercat_drivers</exec_depend>
   <exec_depend>amigo_hardware</exec_depend>
