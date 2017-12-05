@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tue_save_map</name>
+  <version>0.0.1</version>
+  <description>The tue_save_map meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>gimp</exec_depend>
+  <exec_depend>imagemagick</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

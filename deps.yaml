@@ -63,6 +63,7 @@ matthijs:
 - geany
 - gedit
 - swri_console
+- tue_save_map
 networking:
 - libnss_mdns
 - avahi_daemon
@@ -184,6 +185,10 @@ tue_middleware:
 tue_robocup_at_home:
 - tue_robocup
 - robocup_knowledge
+tue_save_map:
+- map_server
+- gimp
+- imagemagick
 tue_tools:
 - sublime3
 - chrome

@@ -20,6 +20,7 @@
   <exec_depend>geany</exec_depend>
   <exec_depend>gedit</exec_depend>
   <exec_depend>swri_console</exec_depend>
+  <exec_depend>tue_save_map</exec_depend>
 
   <export>
     <metapackage/>
