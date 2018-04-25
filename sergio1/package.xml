@@ -16,8 +16,6 @@
   <exec_depend>sergio_start</exec_depend>
   <exec_depend>amigo_hardware</exec_depend>
   <exec_depend>sergio_hardware</exec_depend>
-  <exec_depend>audio</exec_depend>
-  <exec_depend>kinect_driver</exec_depend>
   <exec_depend>urg_node</exec_depend>
   <exec_depend>laser_filters</exec_depend>
   <exec_depend>battery_manager</exec_depend>

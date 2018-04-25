@@ -12,7 +12,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>chrony_client_pc</exec_depend>
+  <exec_depend>amigo_chrony_client_pc</exec_depend>
   <exec_depend>openpose_ros</exec_depend>
 
   <export>

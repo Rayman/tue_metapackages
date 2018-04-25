@@ -13,7 +13,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <exec_depend>amigo</exec_depend>
-  <exec_depend>chrony_client_pc</exec_depend>
+  <exec_depend>amigo_chrony_client_pc</exec_depend>
   <exec_depend>megatools</exec_depend>
   <exec_depend>tue_middleware</exec_depend>
   <exec_depend>tue_robocup_at_home</exec_depend>

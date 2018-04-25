@@ -16,6 +16,7 @@
   <exec_depend>avahi_daemon</exec_depend>
   <exec_depend>avahi_dnsconfd</exec_depend>
   <exec_depend>nmap</exec_depend>
+  <exec_depend>ssh</exec_depend>
 
   <export>
     <metapackage/>

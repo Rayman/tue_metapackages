@@ -15,15 +15,15 @@ amigo1:
 - emergency_speakup
 amigo2:
 - amigo
-- chrony_client_pc
+- amigo_chrony_client_pc
 - megatools
 - tue_middleware
 - tue_robocup_at_home
 amigo4:
-- chrony_client_pc
+- amigo_chrony_client_pc
 - openpose_ros
 amigo5:
-- chrony_client_pc
+- amigo_chrony_client_pc
 - matrix_ros
 amigo_start:
 - dragonfly_speech_recognition
@@ -69,6 +69,7 @@ networking:
 - avahi_daemon
 - avahi_dnsconfd
 - nmap
+- ssh
 robot:
 - gitsu
 - networking
@@ -87,8 +88,6 @@ sergio1:
 - sergio_start
 - amigo_hardware
 - sergio_hardware
-- audio
-- kinect_driver
 - urg_node
 - laser_filters
 - battery_manager
@@ -96,6 +95,12 @@ sergio1:
 - emergency_speakup
 sergio2:
 - sergio
+- audio
+- kinect_driver
+- urg_node
+- laser_filters
+- dynamixel_controllers
+- sergio_chrony_client_pc
 - megatools
 - tue_middleware
 - tue_robocup_at_home
