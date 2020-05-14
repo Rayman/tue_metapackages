@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>amigo4</name>
+  <name>nvidia_docker2</name>
   <version>0.0.1</version>
-  <description>The amigo4 meta package</description>
+  <description>The nvidia_docker2 meta package</description>
 
   <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
 
@@ -12,8 +12,8 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>amigo_chrony_client_pc</exec_depend>
-  <exec_depend>image_recognition_openpose</exec_depend>
+  <exec_depend>docker</exec_depend>
+  <exec_depend>nvidia_driver</exec_depend>
 
   <export>
     <metapackage/>

@@ -17,10 +17,9 @@
   <exec_depend>node_alive</exec_depend>
   <exec_depend>cb_base_navigation</exec_depend>
   <exec_depend>dwa_local_planner</exec_depend>
-  <exec_depend>tue_manipulation</exec_depend>
-  <exec_depend>ar_track_alvar</exec_depend>
   <exec_depend>gmapping</exec_depend>
   <exec_depend>ed</exec_depend>
+  <exec_depend>ed_object_models</exec_depend>
   <exec_depend>ed_perception</exec_depend>
   <exec_depend>ed_perception_models</exec_depend>
   <exec_depend>ed_gui_server</exec_depend>
@@ -28,12 +27,11 @@
   <exec_depend>ed_navigation</exec_depend>
   <exec_depend>ed_robocup</exec_depend>
   <exec_depend>ed_sensor_integration</exec_depend>
-  <exec_depend>head_ref_ed_client</exec_depend>
+  <exec_depend>ed_people_recognition</exec_depend>
   <exec_depend>image_recognition</exec_depend>
   <exec_depend>action_server</exec_depend>
-  <exec_depend>tensorflow_ros</exec_depend>
-  <exec_depend>people_detector</exec_depend>
-  <exec_depend>openface_ros</exec_depend>
+  <exec_depend>people_recognition</exec_depend>
+  <exec_depend>conversation_engine</exec_depend>
 
   <export>
     <metapackage/>

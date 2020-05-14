@@ -10,6 +10,7 @@ amigo1:
 - kinect_driver
 - urg_node
 - laser_filters
+- dynamixel_controllers
 - battery_manager
 - rgb_lights_manager
 - emergency_speakup
@@ -21,7 +22,7 @@ amigo2:
 - tue_robocup_at_home
 amigo4:
 - amigo_chrony_client_pc
-- openpose_ros
+- image_recognition_openpose
 amigo5:
 - amigo_chrony_client_pc
 - matrix_ros
@@ -33,7 +34,6 @@ amigo_start:
 - robot_state_publisher
 - rosbridge_server
 - tue_mobile_ui
-- tf_server
 - node_alive
 - tue_manipulation
 - head_ref
@@ -54,30 +54,158 @@ audio:
 - pulseaudio
 - sox
 - x11_apps
-matthijs:
-- tue_dev
-- ack
-- chrome_dev
-- qtcreator
-- pycharm
+gazebo:
+- gazebo_setup
+git:
+- gitk
+- git_gui
+- git_extras
+git_hooks:
+- git
+- gitsu
+hero:
+- robot
+- hero_demo
+- hero_user
+hero1:
+- hero1_common
+- hero
+hero1_common:
+- hero_start
+- laser_filters
+- dragonfly_speech_recognition
+- rgbd
+- test_tools
+- hsrb_full
+hero1_demo:
+- hero1_common
+- hero_demo
+- tmux
+hero2:
+- hero
+- hero_chrony_client_pc
+- megasync
+- rgbd
+- upower_ros
+- tue_middleware
+- tue_robocup_at_home
+- telegram_ros
+- image_recognition_openpose
+- terminator
+- geany
+- chrome
+hero2_demo:
+- hero_demo
+- rgbd
+- upower_ros
+- tue_middleware
+- challenge_demo
+- telegram_ros
+- image_recognition_openpose
+- tmux
+- terminator
+- geany
+- chrome
+hero_demo:
+- robot
+- hero_demo_user
+hero_demo_laptop:
+- viz
+- hero_dashboard
+- hero_demo_user
+- hero_bringup
+- ed_rviz_plugins
+- terminator
+- chrome
 - geany
 - gedit
-- swri_console
-- tue_save_map
+hero_demo_user:
+- robot_demo_user
+- hero_bringup
+- hero_description
+hero_dev:
+- tmc_desktop_full
+- tue_middleware
+- tue_mobile_ui
+- rviz
+- megasync
+- viz
+- tue_robocup_at_home
+- hero_dashboard
+- hero_display
+- hero_user
+- hero_start
+- nl_robot_console
+- ed_rviz_plugins
+- terminator
+- meld
+hero_dev_full:
+- hero_dev
+- tue_tools
+hero_start:
+- hmi
+- text_to_speech
+- hero_bringup
+- hero_description
+- robot_state_publisher
+- rosbridge_server
+- tue_mobile_ui
+- node_alive
+- head_ref
+- image_recognition_msgs
+- ed_robocup_msgs
+- ed_sensor_integration_msgs
+- cb_planner_msgs_srvs
+- ed_perception_msgs
+hero_user:
+- tue_common
+- robot_user
+- hero_demo_user
+libfftw3:
+- libfftw3_3
+- libfftw3_dev
 networking:
 - libnss_mdns
 - avahi_daemon
 - avahi_dnsconfd
 - nmap
 - ssh
+nvidia_docker2:
+- docker
+- nvidia_driver
 robot:
+- ccache
+- gitsu
+- git_hooks
+- networking
+- vim
+robot_demo_user:
+- ccache
 - gitsu
 - networking
-robot_user:
-- networking
+- vim
+- htop
 - tue_teleop_keyboard
-ros_ruby:
-- ruby
+ros:
+- setup
+- catkin
+ros_freenect_launch:
+- image_transport
+- compressed_image_transport
+- freenect_launch
+ros_hsrb_description:
+- hsr_setup
+- hsrb_description
+ros_hsrb_full:
+- hsr_setup
+- hsrb_full
+ros_tmc_desktop_full:
+- hsr_setup
+- tmc_desktop_full
+ros_tmc_msgs:
+- hsr_setup
+- tmc_msgs
+ruby:
 - ruby_dev
 sergio:
 - robot
@@ -112,7 +240,6 @@ sergio_start:
 - robot_state_publisher
 - rosbridge_server
 - tue_mobile_ui
-- tf_server
 - node_alive
 - tue_manipulation
 - head_ref
@@ -127,9 +254,9 @@ sergio_user:
 - sergio_bringup
 - sergio_description
 - node_alive
-tue_common:
-- tue_msgs
-- ros
+speech_recognition_dev:
+- kaldi
+- speech_recognition
 tue_dev:
 - fast_simulator
 - fast_simulator_data
@@ -138,7 +265,6 @@ tue_dev:
 - rviz
 - megasync
 - viz
-- spot
 - tue_robocup_at_home
 - dashboard
 - amigo_user
@@ -147,16 +273,14 @@ tue_dev:
 - sergio_start
 - nl_robot_console
 - ed_rviz_plugins
-- hsr_user
 - terminator
-- vim
-- gitsu
-- htop
-- ccache
 - meld
 tue_dev_full:
 - tue_dev
 - tue_tools
+tue_documentation:
+- python_catkin_tools_document_pip
+- python_sphinx_rtd_theme_pip
 tue_hardware:
 - soem_master
 - soem_beckhoff_drivers
@@ -170,10 +294,9 @@ tue_middleware:
 - node_alive
 - cb_base_navigation
 - dwa_local_planner
-- tue_manipulation
-- ar_track_alvar
 - gmapping
 - ed
+- ed_object_models
 - ed_perception
 - ed_perception_models
 - ed_gui_server
@@ -181,12 +304,11 @@ tue_middleware:
 - ed_navigation
 - ed_robocup
 - ed_sensor_integration
-- head_ref_ed_client
+- ed_people_recognition
 - image_recognition
 - action_server
-- tensorflow_ros
-- people_detector
-- openface_ros
+- people_recognition
+- conversation_engine
 tue_robocup_at_home:
 - tue_robocup
 - robocup_knowledge

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hero2_demo</name>
+  <version>0.0.1</version>
+  <description>The hero2_demo meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>hero_demo</exec_depend>
+  <exec_depend>rgbd</exec_depend>
+  <exec_depend>upower_ros</exec_depend>
+  <exec_depend>tue_middleware</exec_depend>
+  <exec_depend>challenge_demo</exec_depend>
+  <exec_depend>telegram_ros</exec_depend>
+  <exec_depend>image_recognition_openpose</exec_depend>
+  <exec_depend>tmux</exec_depend>
+  <exec_depend>terminator</exec_depend>
+  <exec_depend>geany</exec_depend>
+  <exec_depend>chrome</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

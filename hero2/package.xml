@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hero2</name>
+  <version>0.0.1</version>
+  <description>The hero2 meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>hero</exec_depend>
+  <exec_depend>hero_chrony_client_pc</exec_depend>
+  <exec_depend>megasync</exec_depend>
+  <exec_depend>rgbd</exec_depend>
+  <exec_depend>upower_ros</exec_depend>
+  <exec_depend>tue_middleware</exec_depend>
+  <exec_depend>tue_robocup_at_home</exec_depend>
+  <exec_depend>telegram_ros</exec_depend>
+  <exec_depend>image_recognition_openpose</exec_depend>
+  <exec_depend>terminator</exec_depend>
+  <exec_depend>geany</exec_depend>
+  <exec_depend>chrome</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

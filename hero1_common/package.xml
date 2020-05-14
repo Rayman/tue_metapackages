@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hero1_common</name>
+  <version>0.0.1</version>
+  <description>The hero1_common meta package</description>
+
+  <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
+
+  <license>MIT</license>
+
+  <author email="rayman747@hotmail.com">Ramon Wijnands</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>hero_start</exec_depend>
+  <exec_depend>laser_filters</exec_depend>
+  <exec_depend>dragonfly_speech_recognition</exec_depend>
+  <exec_depend>rgbd</exec_depend>
+  <exec_depend>test_tools</exec_depend>
+  <exec_depend>hsrb_full</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

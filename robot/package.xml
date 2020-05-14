@@ -12,8 +12,11 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <exec_depend>ccache</exec_depend>
   <exec_depend>gitsu</exec_depend>
+  <exec_depend>git_hooks</exec_depend>
   <exec_depend>networking</exec_depend>
+  <exec_depend>vim</exec_depend>
 
   <export>
     <metapackage/>

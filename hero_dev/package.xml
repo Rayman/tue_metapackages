@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>tue_dev</name>
+  <name>hero_dev</name>
   <version>0.0.1</version>
-  <description>The tue_dev meta package</description>
+  <description>The hero_dev meta package</description>
 
   <maintainer email="rayman747@hotmail.com">Ramon Wijnands</maintainer>
 
@@ -12,19 +12,17 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>fast_simulator</exec_depend>
-  <exec_depend>fast_simulator_data</exec_depend>
+  <exec_depend>tmc_desktop_full</exec_depend>
   <exec_depend>tue_middleware</exec_depend>
   <exec_depend>tue_mobile_ui</exec_depend>
   <exec_depend>rviz</exec_depend>
   <exec_depend>megasync</exec_depend>
   <exec_depend>viz</exec_depend>
   <exec_depend>tue_robocup_at_home</exec_depend>
-  <exec_depend>dashboard</exec_depend>
-  <exec_depend>amigo_user</exec_depend>
-  <exec_depend>amigo_start</exec_depend>
-  <exec_depend>sergio_user</exec_depend>
-  <exec_depend>sergio_start</exec_depend>
+  <exec_depend>hero_dashboard</exec_depend>
+  <exec_depend>hero_display</exec_depend>
+  <exec_depend>hero_user</exec_depend>
+  <exec_depend>hero_start</exec_depend>
   <exec_depend>nl_robot_console</exec_depend>
   <exec_depend>ed_rviz_plugins</exec_depend>
   <exec_depend>terminator</exec_depend>
