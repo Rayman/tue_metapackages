@@ -54,8 +54,6 @@ audio:
 - pulseaudio
 - sox
 - x11_apps
-gazebo:
-- gazebo_setup
 git:
 - gitk
 - git_gui
