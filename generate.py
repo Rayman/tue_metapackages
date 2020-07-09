@@ -25,8 +25,12 @@ with open(os.path.join(basedir, 'CMakeLists.txt.template')) as f:
     cmake_template = f.read()
 with open(os.path.join(basedir, 'package.xml.template')) as f:
     package_template = f.read()
+with open(os.path.join(basedir, 'blacklist.txt')) as f:
+    blacklist = set(f.read().splitlines())
 
 for name, deps in data.items():
+    if name in blacklist:
+        continue
     for dep in deps:
         assert name != dep, "package that depends on itself: %s" % name
     base = os.path.join(basedir, name)

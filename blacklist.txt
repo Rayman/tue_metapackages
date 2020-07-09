@@ -1,0 +1,4 @@
+git
+gstreamer1.0
+nvidia_docker2
+ruby
